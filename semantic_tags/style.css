@@ -1,7 +1,7 @@
 /* nstyle.css */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: lightgrey; 
 }
 h1{
     color: #333;
@@ -12,4 +12,13 @@ p
     color :blue;
     line-height:1.6;
     font-size: 14px;
+}
+h2{
+    color:aqua;
+    background-color: black;
+    padding: 10px;
+}
+a {
+    color:blanchedalmond;
+    background-color:bisque;
 }
