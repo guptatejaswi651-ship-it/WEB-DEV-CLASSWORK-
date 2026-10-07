@@ -22,3 +22,10 @@ a {
     color:blanchedalmond;
     background-color:bisque;
 }
+p{color:green;}
+.note {
+    color: orange;
+}
+#intro {
+    color : purple;
+}
