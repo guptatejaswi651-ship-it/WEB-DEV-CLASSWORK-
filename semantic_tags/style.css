@@ -1,7 +1,8 @@
 /* nstyle.css */
 body {
     font-family: Arial, sans-serif;
-    background-color: lightgrey; 
+    background-color: pink; 
+    text-align:center;
 }
 h1{
     color: #333;
@@ -15,17 +16,28 @@ p
 }
 h2{
     color:aqua;
-    background-color: black;
+    background-color: brown;
     padding: 10px;
 }
 a {
-    color:blanchedalmond;
+    color:darkblue;
     background-color:bisque;
 }
-p{color:green;}
+p{color:green !important;
+border: 1px solid brown;}
 .note {
     color: orange;
 }
 #intro {
     color : purple;
+}
+.box{
+    color:red;
+    background-color:yellow;
+    border: 2px solid black;
+    width: 200px;
+    padding: 10px;
+    text-align:center;
+    
+    
 }
