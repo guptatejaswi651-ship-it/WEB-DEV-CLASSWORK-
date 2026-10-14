@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.container img {
+    width: 100%;
+    height: 100vh;
+}
+
+.text {
+    position: absolute;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.top-left {
+    top: 10px;
+    left: 10px;
+}
+
+.top-center {
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.top-right {
+    top: 10px;
+    right: 10px;
+}
+
+.middle-left {
+    top: 50%;
+    left: 10px;
+}
+
+.center {
+    top: 50%;
+    left: 50%;
+}
+
+.middle-right {
+    top: 50%;
+    right: 10px;
+}
+
+.bottom-left {
+    bottom: 10px;
+    left: 10px;
+}
+
+.bottom-center {
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bottom-right {
+    bottom: 10px;
+    right: 10px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <img src="my.jpeg" alt="my image">
+
+    <div class="text top-left">Tejaswi Gupta</div>
+    <div class="text top-center">Tejaswi Gupta</div>
+    <div class="text top-right">Tejaswi Gupta</div>
+
+    <div class="text middle-left">Tejaswi Gupta</div>
+    <div class="text center">Tejaswi Gupta</div>
+    <div class="text middle-right"></div>
+
+    <div class="text bottom-left">Tejaswi Gupta</div>
+    <div class="text bottom-center">Tejaswi Gupta</div>
+    <div class="text bottom-right">Tejaswi Gupta</div>
+</div>
+
+</body>
+</html>
