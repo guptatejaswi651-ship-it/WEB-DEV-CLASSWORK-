@@ -3,7 +3,6 @@
             background-color: blue;
             flex-direction : row;
             gap:20px; 
-            width: 50%;
             flex-wrap:wrap;
 }
 .container div
@@ -12,14 +11,12 @@
       margin: 10px;
       padding: 20px;
       font-size: 24px;
-      width : 50px;
 
 }
 .box {
     display : flex;
     flex-direction: column ;
     gap : 30px;
-    width : 100%;
     background-color: blue;
     flex-wrap : wrap ;
 
@@ -30,13 +27,12 @@
     padding : 30px;
     font-size: 24px;
     color:brown;
-    width : 100%;
 }
 .boxes {
     display: flex;
     margin : 10px;
     gap : 30px;
-    width:100%;
+    width:80%;
     background-color:blue;
     height : 1600px;
     flex-direction : column;
@@ -51,6 +47,38 @@
     color:black;
     width : 20%;
 }
+.box2 {
+    display : flex ;
+    gap : 30px;
+    background-color: blue;
+    height : 1700px;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.box2 div {
+    background-color : yellow;
+    margin : 20px;
+    padding : 30px;
+    font-size: 24px;
+    color:black;
+    width : 600px;
+    
+}
+.container2 {
+            display : flex;
+            background-color: blue;
+            flex-direction : row;
+            width: 50%;
+            flex-wrap:wrap;
+            align-items: first-end;
+          
 
-
-
+}
+.container2 div
+{
+    background-color: yellow;
+      margin: 10px;
+      padding: 20px;
+      font-size: 24px;
+      width : 50px;
+}
